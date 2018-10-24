@@ -80,22 +80,22 @@
 # **MARKDOWN**
 
 ### **문법**
-  1.제목 : 
-    * <h1>부터 <h6> 까지 표현
-    * # Heading ->h1, ### Heading -> h3
-    * #의 개수의 따라서 h(#) 구분
+  1. 제목  
+    * < h1 >부터 < h6 > 까지 표현
+    * (#) Heading ->h1, (###) Heading -> h3
+    * (#)의 개수의 따라서 h(#) 구분
     * h1이 크기가 제일 크다
-  2.강조 : 
-    * <em> : 기울여 쓰기/같은 동작*,_
+  2. 강조  
+    * < em > : 기울여 쓰기/같은 동작*,_
       * *강조한*텍스트 or _강조한_텍스트 ->강조한부분이 강조된다
-    * <strong> : 굵게쓰기/같은동작 **,--
+    * < strong > : 굵게쓰기/같은동작 **,__
       * **강조한**텍스트 or __강조한__텍스트 ->강조한부분이 강조된다
     * <del> : 
       * 취소선 ~~ <br>
       * ~~취소한~~텍스트 ->취소한부분이 취소된다
     * <u></u>(밑줄) <br>
 
-  3.목록 : 
+  3. 목록  
     * 순서가 없는 리스트(Unordered List) : <ul>
       * *HTML *CSS *JavaScript or -HTML -CSS -JavaScript
       * * 또는 -를 사용해서 작성
@@ -103,7 +103,7 @@
     * 순서가 있는 리스트(Ordered List) : <ol>
          - 1. HTML, 2. CSS, 3. JavaScript 숫자를 사용해서 작성
 
-  4.링크 : 
+  4. 링크  
     * 인라인 링크 
          [Google](http://www.google.co.kr “구글”)
          -> 실핼결과 Google       
@@ -120,19 +120,19 @@
          -> 실핼결과 http://google.com
                       example@gmail.com 
 
-  5.이미지 : <img>
+  5. 이미지 : <img>
 
-  6.코드강조 : <pre>,<code>
+  6. 코드강조 : <pre>,<code>
     * 인라인 코드강조 : `(Grave)를 입력하세요.
     * 블록 코드 강조 : ``` or ~~~ 3번 이상 입력하고 코드 종류도 적는다
 
-  7.표  
+  7. 표  
     * <table> </table>
 
-  8.인용문  
+  8. 인용문  
     * <blockqute>
 
-  9.수평선 : ---(Hyphens), ***(Asterisks), ___(Underscores)
+  9. 수평선 : ---(Hyphens), ***(Asterisks), ___(Underscores)
              각 기호를 3개 이상 입력 (단, -을 사용할 경우 header로 인식할 수 있으니 이 전 라인은 비워두어야한다.) *
          
   10. 줄바꿈 : 
