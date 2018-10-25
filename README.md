@@ -19,14 +19,14 @@
   * git status : 깃의 저장소의 상태를 나타냄(commit되지 않은 파일 목록을 보여 줌)
   * git add : 처음 파일을 만들었을 때 처음에 git은 파일을 무시하다가 add로 파일을 선언해줘야만 git이 인식해 사용할 수 있게 함
   * git commit : 어떤 변경사항이 발생했을 경우 저장소의 스냅 샷을 기록하기 위해 이 명령어를 사용
-                 --amend 옵션 : 직전에 commit 메시지를 수정
-                 -am 옵션 : add 와 commit 을 동시 진행
+                 <br>--amend 옵션 : 직전에 commit 메시지를 수정
+                 <br>-am 옵션 : add 와 commit 을 동시 진행
 
 ### **4. commit에서 삭제한 파일 복구**
   * git checkout 커밋아이디 : commit id 시점으로 복구
   * git checkout 커밋아이디 파일명 : 지정된 파일만 복구
   * git checkout master : 최근 commit으로 복구
-                         ->주의 checout 후에 add와 commit을 새로 해줄 것
+                         <br>->주의 checout 후에 add와 commit을 새로 해줄 것
 
 ### **5. Branch와 Tag**
   * git branch : 지역 브랜치 목록 보기
@@ -71,7 +71,7 @@
     * 커밋명A이후부터 커밋명B까지의 로그를 볼 수 있습니다. 
   * git blame 파일명 : 갈 줄 앞에 커밋명과 커밋한 사람등의 정보를 볼 수 있다. 
   * git blame -L 10,15 파일명 : -L 옵션을 사용하면 10줄부터 15줄로 범위를 지정해서 볼 수 있고 15대신 +5와 같이 사용할 수 있다. 
-                                숫자의 범위 대신 정규식도 사용이 가능
+                                <br>숫자의 범위 대신 정규식도 사용이 가능
   * git blame -M 파일명 : -M 옵션을 사용하면 반복되는 패턴을 찾아서 복사하거나 이동된 내용을 찾아준다.  
   * git revert 커밋명 : 기존의 커밋에서 변경한 내용을 취소해서 새로운 커밋을 만든다
   * git reset 커밋명 : 이전 커밋을 수정하기 위해서 사용합니다. 
