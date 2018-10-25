@@ -22,12 +22,6 @@
                  --amend 옵션 : 직전에 commit 메시지를 수정<br>
                  -am 옵션 : add 와 commit 을 동시 진행
                  
-                 
-                 
-                 
-                 
-                 
-
 ### **4. commit에서 삭제한 파일 복구**
   * git checkout 커밋아이디 : commit id 시점으로 복구
   * git checkout 커밋아이디 파일명 : 지정된 파일만 복구
