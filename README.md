@@ -6,7 +6,7 @@
   * cd 폴더이름
 
 ### **2. 환경설정**
-  * git config --global --list : 현재 설정정보 조회할 수 있다. 
+  * git config --global --list : 현재 설정정보 조회할 수 있다. <br><br>
                                 * global옵션은 전역설정에 대한 옵션이며 현재 프로젝트에만 적용할때는 주지 않는다.
   * git config --global user.name "깃허브이름“
   * git config --global user.email "깃허브이메일주소"
