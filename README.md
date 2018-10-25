@@ -6,8 +6,8 @@
   * cd 폴더이름
 
 ### **2. 환경설정**
-  * git config --global --list : 현재 설정정보 조회할 수 있다. <br>
-                                global옵션은 전역설정에 대한 옵션이며 현재 프로젝트에만 적용할때는 주지 않는다.
+  * git config --global --list : 현재 설정정보 조회할 수 있다. 
+                                * global옵션은 전역설정에 대한 옵션이며 현재 프로젝트에만 적용할때는 주지 않는다.
   * git config --global user.name "깃허브이름“
   * git config --global user.email "깃허브이메일주소"
   * git config --global color.ui “auto” : 터미널에 표시되는 메시지에 칼라를 표시해줌
@@ -19,14 +19,14 @@
   * git status : 깃의 저장소의 상태를 나타냄(commit되지 않은 파일 목록을 보여 줌)
   * git add : 처음 파일을 만들었을 때 처음에 git은 파일을 무시하다가 add로 파일을 선언해줘야만 git이 인식해 사용할 수 있게 함
   * git commit : 어떤 변경사항이 발생했을 경우 저장소의 스냅 샷을 기록하기 위해 이 명령어를 사용
-                 <br>--amend 옵션 : 직전에 commit 메시지를 수정
-                 <br>-am 옵션 : add 와 commit 을 동시 진행
+                 * --amend 옵션 : 직전에 commit 메시지를 수정
+                 * -am 옵션 : add 와 commit 을 동시 진행
 
 ### **4. commit에서 삭제한 파일 복구**
   * git checkout 커밋아이디 : commit id 시점으로 복구
   * git checkout 커밋아이디 파일명 : 지정된 파일만 복구
   * git checkout master : 최근 commit으로 복구
-                         <br>->주의 checout 후에 add와 commit을 새로 해줄 것
+                         * ->주의 checout 후에 add와 commit을 새로 해줄 것
 
 ### **5. Branch와 Tag**
   * git branch : 지역 브랜치 목록 보기
@@ -71,7 +71,7 @@
     * 커밋명A이후부터 커밋명B까지의 로그를 볼 수 있습니다. 
   * git blame 파일명 : 갈 줄 앞에 커밋명과 커밋한 사람등의 정보를 볼 수 있다. 
   * git blame -L 10,15 파일명 : -L 옵션을 사용하면 10줄부터 15줄로 범위를 지정해서 볼 수 있고 15대신 +5와 같이 사용할 수 있다. 
-                                <br>숫자의 범위 대신 정규식도 사용이 가능
+                                * 숫자의 범위 대신 정규식도 사용이 가능
   * git blame -M 파일명 : -M 옵션을 사용하면 반복되는 패턴을 찾아서 복사하거나 이동된 내용을 찾아준다.  
   * git revert 커밋명 : 기존의 커밋에서 변경한 내용을 취소해서 새로운 커밋을 만든다
   * git reset 커밋명 : 이전 커밋을 수정하기 위해서 사용합니다. 
@@ -85,7 +85,7 @@
      # Heading ->h1, ### Heading -> h3 
      #의 개수의 따라서 h# 구분 
      h1이 크기가 제일 크다 
-######   2. 강조
+######  2. 강조
     1)<em> : 기울여 쓰기/같은 동작*,_
        *강조한*텍스트 or _강조한_텍스트 ->강조한부분이 강조된다
     2)<strong> : 굵게쓰기/같은동작 **,__
@@ -95,7 +95,7 @@
        ~~취소한~~텍스트 ->취소한부분이 취소된다
     4)<u></u>(밑줄) <br>
 
-######   3. 목록  
+######  3. 목록  
     1)순서가 없는 리스트(Unordered List) : <ul>
        *HTML *CSS *JavaScript or -HTML -CSS -JavaScript
        * 또는 -를 사용해서 작성
@@ -103,7 +103,7 @@
     2)순서가 있는 리스트(Ordered List) : <ol>
        - 1. HTML, 2. CSS, 3. JavaScript 숫자를 사용해서 작성
 
-######   4. 링크  
+######  4. 링크  
     1)인라인 링크 
          [Google](http://www.google.co.kr “구글”)
          -> 실핼결과 Google       
@@ -120,23 +120,23 @@
          -> 실핼결과 http://google.com
                       example@gmail.com 
 
-######   5. 이미지  
+######  5. 이미지  
     <img>
 
-######   6. 코드강조  
+######  6. 코드강조  
     pre>,<code>
     인라인 코드강조 : `(Grave)를 입력하세요.
     블록 코드 강조 : ``` or ~~~ 3번 이상 입력하고 코드 종류도 적는다
 
-######   7. 표  
+######  7. 표  
     <table> </table>
 
-######   8. 인용문  
+######  8. 인용문  
     <blockqute>
 
-######   9. 수평선 
+######  9. 수평선 
     ---(Hyphens), ***(Asterisks), ___(Underscores)
     각 기호를 3개 이상 입력 (단, -을 사용할 경우 header로 인식할 수 있으니 이 전 라인은 비워두어야한다.) *
          
-######   10. 줄바꿈 : 
+######  10. 줄바꿈 : 
     <br> or 띄어쓰기 2번
